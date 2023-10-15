@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Sorteador Dev</title>
+</head>
+
+<body>
+    <img src="./assets/sort 1.png" alt="logo-sorteio">
+
+    <h2>Sortear um número</h2>
+    <img src="./assets/countdown.gif" alt="gif" id="countDown" style="display: none;">
+    <p id="numberDrawnVisible"></p>
+    <div>
+        <input placeholder="entre" class="input-min" type="number">
+        <input placeholder="e" class="input-max" type="number">
+    </div>
+
+    <button onclick="generateNumber()">Sortear</button>
+</body>
+
+</html>
